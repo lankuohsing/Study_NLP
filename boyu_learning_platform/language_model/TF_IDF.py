@@ -31,4 +31,4 @@ print(x_train_weight)
 print('输出x_test文本向量：')
 print(x_test_weight)
 # In[]
-tf_idf_transformer.get_params
+tf_idf_transformer.idf_
