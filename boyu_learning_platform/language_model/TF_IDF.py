@@ -4,6 +4,9 @@ Created on Thu Feb 20 00:38:40 2020
 
 @author: lankuohsing
 """
+'''
+https://blog.csdn.net/asialee_bird/article/details/81486700
+'''
 
 
 from sklearn.feature_extraction.text import CountVectorizer
@@ -11,7 +14,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 
 x_train = ['TF-IDF 主要 思想 是','算法 一个 重要 特点 可以 脱离 语料库 背景',
            '如果 一个 网页 被 很多 其他 网页 链接 说明 网页 重要']
-x_test=['原始 文本 进行 标记','主要 思想']
+x_test=['原始 文本 进行 标记','主要 思想 是 TF-IDF']
 
 #该类会将文本中的词语转换为词频矩阵，矩阵元素a[i][j] 表示j词在i类文本下的词频
 vectorizer = CountVectorizer(max_features=10)
