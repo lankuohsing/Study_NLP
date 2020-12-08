@@ -33,10 +33,10 @@ FLAGS = None
 
 def train_ngram_model(data,
                       learning_rate=1e-3,
-                      epochs=1000,
+                      epochs=10,
                       batch_size=128,
                       layers=2,
-                      units=64,
+                      units=32,
                       dropout_rate=0.2):
     """Trains n-gram model on the given dataset.
     # Arguments
